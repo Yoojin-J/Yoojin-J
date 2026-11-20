@@ -3,19 +3,47 @@
 
 ---
 
-### 🎵 몽글 (Mongle) — 2026 졸업작품 · 진행 중
-**음악으로 떠올린 기억을 기록하고 나누는 모바일 앱**
-<sub>졸업 논문 주제: 음악을 통한 기억 회상 기반 기록 및 공유 서비스 \'몽글(mongle)\' 개발</sub>
+### 🎵 몽글 (mongle)
+> 📄 졸업 논문 주제: 음악을 통한 기억 회상 기반 기록 및 공유 서비스 '몽글(mongle)' 개발
 
-| 레포 | 내 역할 |
-|---|---|
-| [mongle_front_v2](https://github.com/mongle2026/mongle_front_v2) | 디자인 팀 시안을 React Native 화면으로 구현, 주요 기능: 기록 작성 및 공유, 편지 작성, 음악 검색 등 개발 |
-| [mongle_back](https://github.com/mongle2026/mongle_back) | 백엔드 전담 — NestJS API 개발, MySQL DB 설계, 간편 로그인 등 개발, Railway·Aiven·Cloudflare R2·EAS Build 배포 환경 직접 구성 |
+`2026 졸업작품` `진행 중` `Frontend + Backend`
 
-- **Front**: React Native, Expo, React, JavaScript
-- **Back**: NestJS, TypeScript, Node.js
-- **Infra**: Railway(서버 배포), Aiven(MySQL), Cloudflare R2(사진 저장), EAS Build(앱 빌드)
-- **개발 방식**: 기능 기획·요구사항 정의는 직접 하고, 구현은 AI 코딩 도구를 활용. 배포 환경(Railway·Aiven·R2·EAS) 구성과 DB 전환 결정은 직접 수행
+**음악으로 떠올린 기억을 기록하고 나누는 모바일 앱**  
+🔗 [Front 레포](https://github.com/mongle2026/mongle_front_v2) · [Back 레포](https://github.com/mongle2026/mongle_back)
+
+**Frontend**
+- 디자인 팀 시안을 React Native 화면으로 구현
+- 기록 작성·공유, 편지 작성, 음악 검색 기능 개발
+
+**Backend (전담)**
+- NestJS API 개발, MySQL DB 설계, 간편 로그인 구현
+- 배포 환경 직접 구성: 서버(Railway) · DB(Aiven) · 사진 저장(Cloudflare R2) · 앱 빌드(EAS Build)
+- Aiven이 MariaDB를 지원하지 않아 DB를 MariaDB → MySQL로 전환
+
+**Stack**
+- Front: React Native · Expo · React · JavaScript
+- Back: NestJS · TypeScript · Node.js
+- Infra: Railway · Aiven(MySQL) · Cloudflare R2 · EAS Build
+
+**개발 방식**: 기능 기획·요구사항 정의는 직접 하고, 구현은 AI 코딩 도구를 활용
+
+---
+
+### 🍑 해피치 (Happeach)
+`팀 프로젝트` `완료` `Frontend`
+
+**감정과 소비를 함께 기록하는 감정 기반 가계부 웹 서비스**  
+🔗 [서비스 바로가기](https://happeach.site) · [레포](https://github.com/RinaKang/happeach_f)
+
+**Frontend**
+- 카카오 OAuth 로그인 연결
+- 감정 가계부(캘린더 기반 소비·감정 기록) 화면 및 기능 구현
+- 디자인 팀의 디자인 스펙에 맞춰 담당 화면 구현
+- 백엔드 API와의 연동을 중요하게 보고, 백엔드 응답 구조에 맞춰 프론트를 조정하며 협업
+- 한 달치 데이터를 받아 프론트에서 월간·주간을 계산하던 방식을, 백엔드 API가 월간·주간 데이터를 따로 제공하는 것을 확인하고 그에 맞춰 수정
+
+**Stack**
+- Front: React 19 · Vite · React Router · Axios
 
 ---
 
@@ -24,6 +52,7 @@
 ![React Native](https://img.shields.io/badge/React_Native-20232A?logo=react&logoColor=61DAFB)
 ![Expo](https://img.shields.io/badge/Expo-000020?logo=expo&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
 **Backend**  
@@ -41,4 +70,4 @@
 ---
 
 ### 📫 Contact
-- Email: syoojin03@gmail.com
+[![Email](https://img.shields.io/badge/Email-syoojin03@gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:syoojin03@gmail.com)
